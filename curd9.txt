@@ -1,0 +1,9 @@
+cell1 = newRow.insertCell(0);
+    cell1.innerHTML = data.movie_name;
+
+    cell2 = newRow.insertCell(1);
+    cell2.innerHTML = data.movie_director;
+    
+    cell4 = newRow.insertCell(2);
+    cell4.innerHTML = `<a onClick="onEdit(this)">수정하기</a>
+                        <a onClick="onDelete(this)">삭제하기</a>`;
