@@ -1,0 +1,26 @@
+<div  class="form-action-buttons">
+                        <input type="submit" value="추가하기">
+                    </div>
+
+                </form>
+            </td>
+
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                         <tr id="item2">
+                            <th>연락처</th><th>전화번호</th><th>변경사항</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+
+</html>
