@@ -1,0 +1,13 @@
+function updateRecord(formData) {
+    selectedRow.cells[0].innerHTML = formData.movie_name;
+    selectedRow.cells[1].innerHTML = formData.movie_director;
+
+}
+
+function onDelete(td) {
+    if (confirm('데이터를 삭제하시겠습니까?')) {
+        row = td.parentElement.parentElement;
+        document.getElementById("employeeList").deleteRow(row.rowIndex);
+        resetForm();
+    }
+}
