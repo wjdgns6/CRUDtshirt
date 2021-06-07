@@ -1,0 +1,6 @@
+function readFormData() {
+    var formData = {};
+    formData["movie_name"] = document.getElementById("movie_name").value;
+    formData["movie_director"] = document.getElementById("movie_director").value;
+    return formData;
+}
