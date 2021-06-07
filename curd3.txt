@@ -1,0 +1,10 @@
+ <div>
+                        <label>연락처</label><label class="validation-error hide" id="fullNameValidationError"></label>
+                        <input type="text" name="movie_name" id="movie_name" placeholder="홍길동">
+                    </div>
+
+                    <div>
+                        <label>전화번호</label>
+                        <input type="text" name="movie_director"
+                        id="movie_director" placeholder="010-1234-5678">
+                    </div>
