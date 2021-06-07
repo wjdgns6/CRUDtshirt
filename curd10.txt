@@ -1,0 +1,11 @@
+function resetForm() {
+    document.getElementById("movie_name").value = "";
+    document.getElementById("movie_director").value = "";
+    selectedRow = null;
+
+function onEdit(td) {
+    if(confirm('데이터를 수정하시겠습니까?')) {
+    selectedRow = td.parentElement.parentElement;
+    document.getElementById("movie_name").value = selectedRow.cells[0].innerHTML;
+    document.getElementById("movie_director").value = selectedRow.cells[1].innerHTML;
+    }
